@@ -2,7 +2,10 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <link
       rel="preload"
       href="{{ site.github.baseurl }}/internal-resources/data/config.json"
@@ -60,21 +63,11 @@
       rel="stylesheet"
       href="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal/static/v2/css/code-theme.min.css"
     />
-    <script
-      src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal/static/v2/js/highlightjs.min.js"
-    ></script>
-    <script
-      src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal/static/v2/js/highlightjs-copy.min.js"
-    ></script>
-    <script
-      src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal/static/v2/js/medium-zoom.min.js"
-    ></script>
-    <script
-      src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal/static/v2/js/anchor.min.js"
-    ></script>
-    <script 
-      src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal/static/v2/js/custom.min.js"
-    ></script>
+    <script src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal/static/v2/js/highlightjs.min.js"></script>
+    <script src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal/static/v2/js/highlightjs-copy.min.js"></script>
+    <script src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal/static/v2/js/medium-zoom.min.js"></script>
+    <script src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal/static/v2/js/anchor.min.js"></script>
+    <script src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal/static/v2/js/custom.min.js"></script>
     <script
       src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal/static/v2/js/custom-defer.min.js"
       type="module"
@@ -84,10 +77,13 @@
       type="image/png"
       href="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal/static/v2/assets/favicon.png"
     />
-    <title>[tktk Headline]</title>
+    <title>FastAPI Security SQL Injection</title>
   </head>
   <body>
-    <header id="tc-header-temp" class="border-bottom"></header>
+    <header
+      id="tc-header-temp"
+      class="border-bottom"
+    ></header>
     <main class="container-lg px-3 mt-4 mb-6 markdown-body">{{ content }}</main>
   </body>
 </html>

@@ -12,13 +12,23 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "[tktk Headline]"
+  friendlyName = "FastAPI Security SQL Injection"
   // This must match the repo name as it appears on GitHub exactly
-  name = "tktk-module-name"
+  name = "python-fastAPI-security-sql-injection"
   type = "Lesson"
 }
 
 courses {
+  new {
+    name = "apd"
+    microlessons {
+      // Add microlessons here, in the order they should be delivered
+      mls.setup
+      mls.concepts
+      mls.identifyingSqlInjectionVulnerabilities
+      mls.preventingSqlInjectionInFastapiControllers
+    }
+  }
   new {
     // Do not remove this fallback course!
     name = "fallback"
@@ -26,11 +36,8 @@ courses {
       // Add microlessons here, in the order they should be delivered
       mls.setup
       mls.concepts
-      mls.microlesson01
-      // You can make course-specific adjustments using a syntax like this:
-      (mls.microlesson02) {
-        type = "Level Up content"
-      }
+      mls.identifyingSqlInjectionVulnerabilities
+      mls.preventingSqlInjectionInFastapiControllers
     }
   }
 }

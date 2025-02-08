@@ -16,16 +16,17 @@ concepts = new Template.Microlesson {
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+identifyingSqlInjectionVulnerabilities = new Template.Microlesson {
+  friendlyName = "Identifying SQL Injection Vulnerabilities"
+  dirName = "identifying-sql-injection-vulnerabilities"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+preventingSqlInjectionInFastapiControllers = new Template.Microlesson {
+  friendlyName = "Preventing SQL Injection in FastAPI Controllers"
+  dirName = "preventing-sql-injection-in-fastapi-controllers"
   type = "Content"
   videoUrl = ""
 }
+
