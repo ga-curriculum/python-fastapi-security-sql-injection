@@ -34,8 +34,8 @@ In this module, you'll learn how to identify and prevent **SQL injection attacks
 
 ### Course landing pages
 
-- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastAPI-security-sql-injection/canvas-landing-pages/apd.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastAPI-security-sql-injection/canvas-landing-pages/fallback.html)
+- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-security-sql-injection/canvas-landing-pages/apd.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-security-sql-injection/canvas-landing-pages/fallback.html)
 
 ### Resources
 

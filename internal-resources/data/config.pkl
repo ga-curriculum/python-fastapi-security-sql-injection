@@ -14,7 +14,7 @@ repo {
   // This name is shown in the header nav to navigate users home
   friendlyName = "FastAPI Security SQL Injection"
   // This must match the repo name as it appears on GitHub exactly
-  name = "python-fastAPI-security-sql-injection"
+  name = "python-fastapi-security-sql-injection"
   type = "Lesson"
 }
 
