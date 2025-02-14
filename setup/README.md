@@ -80,7 +80,7 @@ code .
   ```
 
 - Ensure your PostgreSQL instance is configured to allow connections with the provided credentials.
-- **_Modify your database connection string to use your username as the `<user.name>`._**
+- **_Modify your database connection string to use your username as the `<username>`._**
 
 ### Setting Up a User in PostgreSQL
 
