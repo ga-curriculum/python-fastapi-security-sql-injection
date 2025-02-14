@@ -5,7 +5,7 @@
 
 ## Setup
 
-For this Lab, we’ll start by working with a pre-existing application that utilizes a PostgreSQL database instance, SQLAlchemy models and a database seeded with initial data.
+For this Lesson, we’ll start by working with a pre-existing application that utilizes a PostgreSQL database instance, SQLAlchemy models and a database seeded with initial data.
 
 > If you have a complete, working application from the `Python FastAPI Authorization` Lesson, you may choose to use **a copy of** that codebase as starter code instead of the repo provided below.
 
