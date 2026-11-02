@@ -30,7 +30,7 @@ In this module, you'll learn how to identify and prevent **SQL injection attacks
 
 ### Starter code
 
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-authorization-solution)
+🟢 [Starter code](https://github.com/ga-curriculum/python-fastapi-authorization-solution)
 
 ### Course landing pages
 
